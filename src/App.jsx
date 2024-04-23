@@ -1,5 +1,7 @@
 import './App.css'
-import Tables from './tables/Tables';
+import Tables from './components/tables/Tables';
+
+
 
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
     <Tables netIncomes = {netIncomes}/>
 
   )
-
+  
 
 }
 

@@ -23,12 +23,12 @@ const Tables = ({ netIncomes }) => {
                 ))}
             </Table>
             <p>Ingreso promedio de las 3 marcas: ${average.toFixed(2)}</p>
-            
+
 
 
         </>
     )
-    
+
 }
 
 export default Tables
