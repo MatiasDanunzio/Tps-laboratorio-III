@@ -1,18 +1,23 @@
-import './App.css'
-import Login from './components/login/Login'
+import TaskList from './components/taskList/TaskList';
+import './App.css';
 
 
 
 function App() {
 
-  
+
+
+
 
   return (
-    
-    <Login/>
-  )
+    <>
+      <h1>Lista de tareas</h1>
+      
+      <TaskList/>
 
-
+    </>
+  );
 }
 
-export default App
+export default App;
+
