@@ -25,6 +25,8 @@ const AddTask = ({ onTaskData }) => {
             input: inputText, status: complete
         };
 
+        setShowForm(!showForm)
+
         onTaskData(task);
         setInputText("");
         setComplete(false);
@@ -33,6 +35,8 @@ const AddTask = ({ onTaskData }) => {
     const handleClick = () => {
         setShowForm(!showForm)
     }
+
+    
 
 
     return (

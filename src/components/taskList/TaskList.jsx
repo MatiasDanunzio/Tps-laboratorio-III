@@ -36,7 +36,7 @@ const TaskList = () => {
 
         ))}
       </ListGroup>
-      <AddTask onTaskData={handleTaskData} />
+      <AddTask onTaskData={handleTaskData}/>
     </>
   )
 }
